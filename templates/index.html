@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Resume Screening System</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <div class="background-shapes">
+        <div class="shape cheese"></div>
+        <div class="shape paw"></div>
+        <div class="shape cheese small"></div>
+    </div>
+
+    <div class="container">
+        <div class="hero-card">
+            <h1>AI Resume Screening System</h1>
+            <p class="subtitle">Smart Candidate Matching with a Playful Touch</p>
+        </div>
+
+        <div class="form-card">
+            <form action="/analyze" method="post" enctype="multipart/form-data">
+                
+                <label>📄 Upload Resume</label>
+                <input type="file" name="resume" required>
+
+                <label>🧾 Job Description</label>
+                <textarea name="job_desc" rows="10" placeholder="Paste the job description here..." required></textarea>
+
+                <button type="submit">🚀 Analyze Resume</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
