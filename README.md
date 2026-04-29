@@ -10,7 +10,7 @@ AI Resume Screening System is a Flask-based web application that analyzes resume
 - Clean Web Interface
 
 ## Live Demo
-https://free-peas-look.loca.lt
+
 
 ## Tech Stack
 - Python
