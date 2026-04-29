@@ -1,6 +1,5 @@
-flask
-numpy
+Flask
+gunicorn
+spacy
 scikit-learn
-nltk
 PyPDF2
-docx2txt
